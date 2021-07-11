@@ -33,27 +33,27 @@ to start the script
 
 Now copy and paste the URL of the novel you wish to scrape from [Ranobes](https://ranobes.net/).
 
-<img src = "images/Demo/novel_webpage.png" alt = "novel_webpage">
+<img src = "images/Demo/novel_webpage.PNG" alt = "novel_webpage">
 
 
 It will start extracting the chapter list.
 
-<img src = "images/Demo/extract_index.png" alt = "extract_index">
+<img src = "images/Demo/extract_index.PNG" alt = "extract_index">
 
 
 After that, select the chapter range and it will start scraping the chapters.
 
-<img src = "images/Demo/chapter_range.png" alt = "chapter_range">
+<img src = "images/Demo/chapter_range.PNG" alt = "chapter_range">
 
 
 Now save the file. The file gets saved in .epub format
 
-<img src = "images/Demo/save_file.png" alt = "save_file">
+<img src = "images/Demo/save_file.PNG" alt = "save_file">
 
 
 After saving the file, you will get a prompt for the conversion of .epub to .pdf format.
 
-<img src = "images/Demo/convert_pdf.png" alt = "convert_pdf">
+<img src = "images/Demo/convert_pdf.PNG" alt = "convert_pdf">
 
 
 Choose accordingly and enjoy your read.
