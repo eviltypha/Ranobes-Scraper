@@ -64,8 +64,8 @@ Personally, I prefer the [Lithium: EPUB Reader](https://play.google.com/store/ap
 
 <table>
     <tr>
-        <td><img src = "images/Lithium/lithium_1.png" height = 50% width = 100% alt = "lithium_1"></td>
-        <td><img src = "images/Lithium/lithium_2.png" height = 50% width = 100% alt = "lithium_2"></td>
+        <td><img src = "images/Lithium/lithium_1.png" height = 800 width = 360 alt = "lithium_1"></td>
+        <td><img src = "images/Lithium/lithium_2.png" height = 800 width = 360 alt = "lithium_2"></td>
     </tr>
     <tr>
         <td><img src = "images/Lithium/lithium_3.png" height = 10% width = 100% alt = "lithium_3"></td>
