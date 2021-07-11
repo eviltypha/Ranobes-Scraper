@@ -1,4 +1,4 @@
-# Ranobes Scrapper
+# Ranobes Scraper
 
 This Python script scrapes novels from [Ranobes](https://ranobes.net/) and saves them into .epub format with an optional conversion into .pdf format
 
