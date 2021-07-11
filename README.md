@@ -33,27 +33,27 @@ to start the script
 
 Now copy and paste the URL of the novel you wish to scrape from [Ranobes](https://ranobes.net/).
 
-![novel_webpage](images/Demo/novel_webpage.png)
+<img src = "images/Demo/novel_webpage.png" alt = "novel_webpage">
 
 
 It will start extracting the chapter list.
 
-![extract_index](images/Demo/extract_index.png)
+<img src = "images/Demo/extract_index.png" alt = "extract_index">
 
 
 After that, select the chapter range and it will start scraping the chapters.
 
-![chapter_range](images/Demo/chapter_range.png)
+<img src = "images/Demo/chapter_range.png" alt = "chapter_range">
 
 
 Now save the file. The file gets saved in .epub format
 
-![save_file](images/Demo/save_file.png)
+<img src = "images/Demo/save_file.png" alt = "save_file">
 
 
 After saving the file, you will get a prompt for the conversion of .epub to .pdf format.
 
-![convert_pdf](convert_pdf.png)
+<img src = "images/Demo/convert_pdf.png" alt = "convert_pdf">
 
 
 Choose accordingly and enjoy your read.
@@ -64,10 +64,10 @@ Personally, I prefer the [Lithium: EPUB Reader](https://play.google.com/store/ap
 
 <table>
     <tr>
-        <td><img src = "images/Lithium/lithium_1.png" height = 30% width = 100% alt = "lithium_1"></td>
-        <td><img src = "images/Lithium/lithium_2.png" height = 30% width = 100% alt = "lithium_2"></td>
-        <td><img src = "images/Lithium/lithium_3.png" height = 30% width = 100% alt = "lithium_3"></td>
-        <td><img src = "images/Lithium/lithium_4.png" height = 30% width = 100% alt = "lithium_4"></td>
+        <td><img src = "images/Lithium/lithium_1.png" height = 30% width = 50% alt = "lithium_1"></td>
+        <td><img src = "images/Lithium/lithium_2.png" height = 30% width = 50% alt = "lithium_2"></td>
+        <td><img src = "images/Lithium/lithium_3.png" height = 30% width = 50% alt = "lithium_3"></td>
+        <td><img src = "images/Lithium/lithium_4.png" height = 30% width = 50% alt = "lithium_4"></td>
     </tr>
 </table>
 
