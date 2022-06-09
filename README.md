@@ -51,12 +51,8 @@ Now save the file. The file gets saved in .epub format
 <img src = "images/Demo/save_file.PNG" alt = "save_file">
 
 
-After saving the file, you will get a prompt for the conversion of .epub to .pdf format.
+Enjoy your read!
 
-<img src = "images/Demo/convert_pdf.PNG" alt = "convert_pdf">
-
-
-Choose accordingly and enjoy your read.
 
 ### Lithium: EPUB Reader
 
