@@ -101,11 +101,11 @@ book.add_author(str(soup.find("span", class_="tag_list").text.strip()))
 for span in soup("span"):
     span.decompose()
 
-img_URL = "https://ranobes.net" + \
-    soup.find("img", alt=str(soup.find(class_="title").text.strip()))["src"]
-img_req = Request(img_URL, headers={'User-Agent': 'Mozilla/5.0'})
+# img_URL = "https://ranobes.net" + \
+    # soup.find("img", alt=str(soup.find(class_="poster").text.strip()))["src"]
+# img_req = Request(img_URL, headers={'User-Agent': 'Mozilla/5.0'})
 f = open("cover.jpg", 'wb')
-f.write(urlopen(img_req).read())
+# f.write(urlopen(img_req).read())
 f.close()
 book.set_cover("image.jpg", open("cover.jpg", 'rb').read())
 os.remove("cover.jpg")
