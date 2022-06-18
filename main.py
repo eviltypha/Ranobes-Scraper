@@ -1,4 +1,5 @@
 # Importing necessary libraries
+import requests
 import ast
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
@@ -13,11 +14,17 @@ import shutil
 import zipfile
 import pdfkit
 
+# Extracting cookie Id
+session = requests.Session()
+response = session.get('https://ranobes.net/')
+cookieId = session.cookies.get_dict().get('__cf_bm')
+headers = {'User-Agent': 'Mozilla/5.0',
+           '__cf_bm': '{cookieId}' .format(cookieId=cookieId)}
 
 # Requesting homepage of novel
 URL = input("Enter URL : ")
 print()
-req = Request(URL, headers={'User-Agent': 'Mozilla/5.0'})
+req = Request(URL, headers=headers)
 webpage = urlopen(req).read()
 
 # Parsing using BeautifulSoup
@@ -55,7 +62,7 @@ while i <= int(math.ceil(count / 25)):
         page_num = index_page + "page/{num}/" .format(num=i)
         index_list.append(page_num)
 
-        index_req = Request(page_num, headers={'User-Agent': 'Mozilla/5.0'})
+        index_req = Request(page_num, headers=headers)
         index_webpage = urlopen(index_req).read()
         index_soup = BeautifulSoup(index_webpage, "html.parser")
 
@@ -103,7 +110,7 @@ for span in soup("span"):
 
 # img_URL = "https://ranobes.net" + \
     # soup.find("img", alt=str(soup.find(class_="poster").text.strip()))["src"]
-# img_req = Request(img_URL, headers={'User-Agent': 'Mozilla/5.0'})
+# img_req = Request(img_URL, headers=headers)
 f = open("cover.jpg", 'wb')
 # f.write(urlopen(img_req).read())
 f.close()
@@ -143,7 +150,7 @@ while i < int(end):
 
         # Requesting chapter page
         site = chapter_list[i]
-        site_req = Request(site, headers={'User-Agent': 'Mozilla/5.0'})
+        site_req = Request(site, headers=headers)
         site_page = urlopen(site_req).read()
         site_soup = BeautifulSoup(site_page, "html.parser")
         for span in site_soup("span"):
